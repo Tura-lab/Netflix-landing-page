@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './Nav';
 import Texts from './Texts';
 import SecondLayer from './SecondLayer';
+import ThirdLayer from './ThirdLayer';
 
 function App() {
   return (
@@ -12,11 +13,8 @@ function App() {
           <Texts />
         </div>
       </div>
-      
-      <div>
-        <SecondLayer />
-      </div>
-      
+      <SecondLayer />
+      <ThirdLayer />
     </div>
   );
 }

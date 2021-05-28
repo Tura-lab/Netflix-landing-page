@@ -1,0 +1,45 @@
+.downloader__animation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 68%;
+  left: 19%;
+  border: 2px rgba(123, 123, 123, 0.7) solid;
+  border-radius: 12px;
+  width: 60%;
+  height: 20%;
+  background-color: black;
+  line-height: 0.1;
+}
+
+.downloader__animation img {
+  height: 80px;
+  position: absolute;
+  left: -71%;
+}
+
+.downloader__animation_text {
+  position: relative;
+  left: 26%;
+  top: 8%;
+}
+
+.downloader__animation_text h3 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.downloader__animation_text h4 {
+  font-size: medium;
+  color: rgb(60, 60, 255);
+}
+.gif {
+  position: absolute;
+  left: 7%;
+  top: 17%;
+}
+.gif img {
+  height: 55px;
+  object-fit: contain;
+}

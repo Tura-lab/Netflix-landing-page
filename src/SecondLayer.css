@@ -1,11 +1,40 @@
 .second__layer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: black;
-  padding: 0 7rem;
-  border-top: 0.7rem solid rgb(111, 110, 110);
+  padding: 1rem 0;
+  padding-right: 1rem;
+  border-top: 0.5rem solid rgba(111, 110, 110, 0.3);
   color: white;
+  padding-left: 4rem;
 }
 .second__layer img {
+  width: 550px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.second__layer_texts {
+  max-width: 500px;
+}
+
+.second__layer_texts h1 {
+  font-size: 3rem;
+}
+
+.second__layer_texts h3 {
+  font-size: 1.6rem;
+}
+
+.embedded__video {
+  position: relative;
+}
+
+.embedded__video video {
+  position: absolute;
+  top: 20.5%;
+  left: 13%;
+  width: 400px;
+  object-fit: contain;
 }
