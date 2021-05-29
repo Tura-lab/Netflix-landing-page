@@ -3,6 +3,9 @@ import Nav from './Nav';
 import Texts from './Texts';
 import SecondLayer from './SecondLayer';
 import ThirdLayer from './ThirdLayer';
+import FourthLayer from './FourthLayer';
+import FifthLayer from './FifthLayer';
+import FAQLayer from './FAQLayer';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       </div>
       <SecondLayer />
       <ThirdLayer />
+      <FourthLayer />
+      <FifthLayer />
+      <FAQLayer />
     </div>
   );
 }

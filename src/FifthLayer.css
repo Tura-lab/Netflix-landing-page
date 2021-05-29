@@ -1,0 +1,23 @@
+.fifth__layer {
+  padding-left: 6rem;
+  border-bottom: 0.5rem solid rgba(111, 110, 110, 0.3);
+}
+.fifth__layer img {
+  position: relative;
+  z-index: 1;
+}
+.fifth__layer video {
+  width: 61.5%;
+  position: absolute;
+  left: 18.5%;
+  top: 10%;
+}
+.fifth__layer .second__layer_texts {
+  max-width: 50%;
+}
+.fifth__layer h3 {
+  max-width: 85%;
+}
+.fifth__layer img {
+  width: 89%;
+}

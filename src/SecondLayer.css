@@ -3,15 +3,17 @@
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  padding: 1rem 0;
-  padding-right: 1rem;
+  padding: 4rem 5rem 4rem 0;
   border-top: 0.5rem solid rgba(111, 110, 110, 0.3);
   color: white;
-  padding-left: 4rem;
 }
 .second__layer img {
   width: 550px;
   object-fit: contain;
+  z-index: 2;
+}
+.tv img {
+  position: relative;
   z-index: 2;
 }
 

@@ -1,0 +1,13 @@
+.fourth__layer {
+  padding-left: 6rem;
+}
+.fourth__layer img {
+  position: relative;
+  z-index: 1;
+}
+.fourth__layer video {
+  width: 61.5%;
+  position: absolute;
+  left: 18.5%;
+  top: 10%;
+}

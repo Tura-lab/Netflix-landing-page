@@ -3,7 +3,7 @@ import './SecondLayer.css';
 
 function SecondLayer() {
     return (
-        <div className="second__layer">
+        <div className="second__layer tv">
             <div className='second__layer_texts'>
                 <h1>Enjoy on your TV.</h1>
                 <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast. Apple TV, Blu-ray players, and more.</h3>
